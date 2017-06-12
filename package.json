@@ -1,0 +1,21 @@
+{
+  "name": "firstblood-test-matchmaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha test/*.js"
+  },
+  "dependencies": {
+    "chai": "^4.0.2",
+    "guid": "0.0.12",
+    "mocha": "^3.4.2",
+    "socket.io": "^2.0.2",
+    "underscore": "^1.8.3"
+  }
+}
